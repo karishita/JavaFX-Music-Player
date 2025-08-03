@@ -1,31 +1,4 @@
 
-   /*  public static void main(String[] args) {
-        
-        /*PlayList myPlaylist = new PlayList();
-
-        myPlaylist.addSong("A");
-        myPlaylist.addSong("B");
-        myPlaylist.addSong("C");
-
-        myPlaylist.playCurrent(); // A
-        myPlaylist.nextSong();    // B
-        myPlaylist.nextSong();    // C
-        myPlaylist.nextSong();    // A (loops back)
-        myPlaylist.prevSong();
-        myPlaylist.insertBegin("D");
-         myPlaylist.insertBegin("E");
-          myPlaylist.playCurrent(); // A
-        myPlaylist.nextSong();    // B
-        myPlaylist.nextSong();    // C
-        myPlaylist.nextSong();    // A (loops back)
-        myPlaylist.prevSong();
-        myPlaylist.insertCurrent("F");
-        myPlaylist.nextSong();
-        myPlaylist.showPlaylist();
-        myPlaylist.searchAndPlay("I");
-        
-    }
-    */
 import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -182,11 +155,11 @@ private void loadPlaylistFromFile() {
     public void start(Stage primaryStage) {
         //adding songs
         loadPlaylistFromFile();
-    playlist.addSong("Ami Kan Pete Roi", "/home/ishita/MusicPlayer/audio/Ami Kaan Pete Roi.wav");
-    playlist.addSong("Dekhechi Rupsagore","/home/ishita/MusicPlayer/audio/Dekhechi RupSagore.wav");
-   // playlist.addSong("Sukhohin Nishidin","/home/ishita/MusicPlayer/audio/Sukhohin Nishidin.wav");
-    //playlist.addSong("Nithur Manohor","/home/ishita/MusicPlayer/audio/Nithur Manohor.wav");
 
+        // Add the song names and file paths here
+
+    playlist.addSong("Ami Kan Pete Roi", "/home/ishita/MusicPlayer/audio/Ami Kaan Pete Roi.wav");
+    
     Label titleLabel = new Label(" My Music Player");
      titleLabel.setId("titleLabel");  
         //adding buttons
