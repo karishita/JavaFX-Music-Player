@@ -1,2 +1,19 @@
 # JavaFX-Music-Player
-A desktop music player built using JavaFX and custom playlist logic
+A simple Music Player application built using circular doubly linked list in java to manage playlist operations like insertion, deletion, search, traversal.
+The GUI is implemented in JavaFX
+
+**Core Concepts**
+**Circular Doubly Linked List**-Each song is a node with links to the next and previous songs, enabling circular traversal and efficient song management.
+**Playlist persistence**- via text files (`playlist.txt`) using file I/O.
+
+**FEATURES**
+-Circular Doubly Linked List to manage the playlist efficiently
+-  Play, pause, and switch between songs
+-  Add songs at the beginning, end, or after the current song
+-  Search for and play a specific song
+-  Delete songs by name
+-  Playlist persistence (saved to file)
+-  Volume and progress controls
+- `.wav` files stored locally
+-  GUI built using JavaFX 
+
