@@ -1,4 +1,5 @@
 
+
 import javafx.animation.PauseTransition;
 import javafx.application.Application;
 import javafx.geometry.Insets;
@@ -156,10 +157,12 @@ private void loadPlaylistFromFile() {
         //adding songs
         loadPlaylistFromFile();
 
+
         // Add the song names and file paths here
 
     playlist.addSong("Ami Kan Pete Roi", "/home/ishita/MusicPlayer/audio/Ami Kaan Pete Roi.wav");
     
+   
     Label titleLabel = new Label(" My Music Player");
      titleLabel.setId("titleLabel");  
         //adding buttons
