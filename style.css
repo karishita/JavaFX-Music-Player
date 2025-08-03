@@ -1,0 +1,67 @@
+.root {
+     background-color: #ce4d6b; /* fallback for compatibility */
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f8bbd0, #ede7f6); 
+}
+
+
+
+.label {
+      font-size: 14px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #ad1457; /* deep rose */
+}
+#titleLabel {
+    font-size: 20px;
+    -fx-font-size: 20px;
+    font-weight: bold;
+    -fx-font-weight: bold;
+    -fx-text-fill: #880e4f;
+}
+
+
+.button {
+    background-color: #f8bbd0; /* fallback */
+    -fx-background-color: #f8bbd0;  /* light rose pink */
+    -fx-text-fill: #4a148c;         /* deep purple text */
+    -fx-background-radius: 12px;
+     font-size: 14px;
+    -fx-font-size: 14px;
+     padding:8px 16px;
+    -fx-padding: 8px 16px;
+    cursor: hand;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    background-color: #f8bbd0; /* fallback */
+    -fx-background-color: #f48fb1;  /* darker pink on hover */
+}
+.slider {
+    -fx-accent: #f06292; /* pink accent */
+    -fx-control-inner-background: #fce4ec;
+    -fx-background-radius: 10px;
+    -fx-pref-height: 10px;
+}
+
+.custom-dialog {
+    background-color: linear-gradient(to bottom, #fffafa, #ffe4e1);
+    -fx-background-color: linear-gradient(to bottom, #fffafa, #ffe4e1); /* Soft pink */
+    border-color: #f8bbd0;
+    -fx-border-color: #f8bbd0;
+    border-width: 2px;
+    -fx-border-width: 2px;
+    border-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    font-size: 14px;
+    -fx-font-size: 14px;
+}
+
+.dialog-pane > *.button-bar > *.button {
+    background-color: #f8bbd0;
+    -fx-background-color: #f8bbd0;
+    -fx-text-fill: #4a148c;
+    -fx-background-radius: 10px;
+    cursor: hand;
+    -fx-cursor: hand;
+}

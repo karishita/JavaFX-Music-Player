@@ -1,0 +1,3 @@
+Ami Kan Pete Roi|/home/ishita/MusicPlayer/audio/Ami Kaan Pete Roi.wav
+Dekhechi Rupsagore|/home/ishita/MusicPlayer/audio/Dekhechi RupSagore.wav
+Sukhohin Nishidin|/home/ishita/MusicPlayer/audio/Sukhohin Nishidin.wav
