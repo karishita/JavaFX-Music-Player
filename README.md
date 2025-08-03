@@ -20,4 +20,4 @@ The GUI is implemented in JavaFX
 **How to run**
 1. Clone the repo
 2.  Open in VS Code or any Java IDE with JavaFX setup
-3.  Run Main.java (Add your .wav audio files in the /audio folder or update paths manually)
+3.  Run Main.java (Add your .wav audio files in the /audio folder and add the paths)
