@@ -160,7 +160,7 @@ private void loadPlaylistFromFile() {
 
         // Add the song names and file paths here
 
-    playlist.addSong("Ami Kan Pete Roi", "/home/ishita/MusicPlayer/audio/Ami Kaan Pete Roi.wav");
+   // playlist.addSong("Ami Kan Pete Roi", "/home/ishita/MusicPlayer/audio/Ami Kaan Pete Roi.wav");
     
    
     Label titleLabel = new Label(" My Music Player");
